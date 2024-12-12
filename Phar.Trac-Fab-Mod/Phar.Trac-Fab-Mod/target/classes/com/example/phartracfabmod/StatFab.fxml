@@ -1,0 +1,16 @@
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.phartracfabmod.StatistiquesController">
+    <children>
+        <BarChart fx:id="barChart" layoutX="50" layoutY="50" prefWidth="600" prefHeight="400">
+            <xAxis>
+                <CategoryAxis fx:id="xAxis" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis fx:id="yAxis" />
+            </yAxis>
+        </BarChart>
+    </children>
+</AnchorPane>
